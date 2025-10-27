@@ -27,7 +27,7 @@ jobs:
 
       - name: Run Playwright tests
         run: |
-          pytest -v --headed --browser chromium --alluredir=allure-results
+          pytest -v --headed --browser chromium --alluredir=allure-results noon/tests
 
       - name: Upload Allure results (optional)
         if: always()
