@@ -1,0 +1,56 @@
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.iml
+
+# ===== ENVIRONMENTS =====
+.venv/
+env/
+venv/
+ENV/
+*.env
+*.env.*
+
+# ===== TESTING / PLAYWRIGHT =====
+playwright-report/
+test-results/
+screenshots/
+videos/
+reports/
+allure-results/
+allure-report/
+trace.zip
+trace/
+
+# ===== BUILD / CACHE =====
+dist/
+build/
+.eggs/
+*.bak
+.DS_Store
+*.swp
+.cache/
+pytest_cache/
+coverage.xml
+.coverage
+htmlcov/
+
+# ===== OS SPECIFIC =====
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ===== MISC =====
+*.tmp
+*.temp
+*.log
