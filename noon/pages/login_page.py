@@ -15,7 +15,8 @@ class LoginPage():
 
     @allure.step('Открыть главную страницу')
     def open_base_page(self):
-        self.page.goto('https://www.noon.com/egypt-en/')
+        self.page.goto('https://www.noon.com/egypt-en/', wait_until="domcontentloaded",
+        timeout=90000 )
         expect(self.page).to_have_url('https://www.noon.com/egypt-en/')
 
     @allure.step('Открыть всплывающее меню авторизации')
